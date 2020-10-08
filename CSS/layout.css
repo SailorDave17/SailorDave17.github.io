@@ -24,26 +24,13 @@ nav {
 .nav-list {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 }
 
-.about-dave {
+.about {
     display: grid;
     columns: 80px 80px;
     padding-top: 100px;
-}
-
-.skills {
-    padding-top: 100px;
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .project-title {
@@ -54,4 +41,22 @@ img {
 .project-list {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+}
+
+.skills {
+    padding-top: 100px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
