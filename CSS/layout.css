@@ -1,3 +1,68 @@
-.main-intro {
-    grid-auto-rows: auto;
+* {
+    box-sizing: border-box;
+    margin: 11px;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 0px auto;
+    max-width: 1500px;
+    width: 90%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.about-dave {
+    padding-top: 100px;
+}
+
+.skills {
+    padding-top: 100px;
+}
+
+.about-dave {
+    display: grid;
+    columns: 80px 80px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
 }
