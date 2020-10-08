@@ -4,13 +4,6 @@
     padding: 0;
 }
 
-.container {
-    background-color: rgba(255, 255, 255, 0.753);
-    margin: 0px auto;
-    max-width: 1500px;
-    width: 90%;
-}
-
 .name {
     display: flex;
     justify-content: center;
@@ -30,21 +23,17 @@ nav {
 
 .nav-list {
     display: flex;
-    padding-left: 10px;
     justify-content: space-between;
-}
-
-.about-dave {
-    padding-top: 100px;
-}
-
-.skills {
-    padding-top: 100px;
 }
 
 .about-dave {
     display: grid;
     columns: 80px 80px;
+    padding-top: 100px;
+}
+
+.skills {
+    padding-top: 100px;
 }
 
 .contact {
