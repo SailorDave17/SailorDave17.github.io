@@ -30,19 +30,13 @@ nav {
 .about-dave {
     display: flex;
     justify-content: center;
+    padding-top: 48px;
 }
 
 .bio {
     display: flex;
     justify-content: space-between;
 }
-
-
-/* .about {
-    display: grid;
-    columns: 80px 80px;
-    padding-top: 100px;
-} */
 
 .project-title {
     display: flex;
