@@ -44,9 +44,13 @@ nav {
     list-style-type: none;
 }
 
-.skills {
+
+/* .skills {
+    display: flex;
     padding-top: 100px;
-}
+    justify-content: center;
+    justify-items: center;
+} */
 
 .contact {
     display: flex;
