@@ -27,15 +27,27 @@ nav {
     list-style-type: none;
 }
 
-.about {
+.about-dave {
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .about {
     display: grid;
     columns: 80px 80px;
     padding-top: 100px;
-}
+} */
 
 .project-title {
     display: flex;
     justify-content: center;
+    padding-top: 45px;
 }
 
 .project-list {
@@ -44,23 +56,37 @@ nav {
     list-style-type: none;
 }
 
-
-/* .skills {
+.skills-title {
     display: flex;
-    padding-top: 100px;
     justify-content: center;
-    justify-items: center;
-} */
+    padding-top: 45px;
+}
 
-.contact {
+.skills-list {
     display: flex;
+    justify-content: center;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
 }
 
 .contact-list {
+    display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    margin-top: 37x;
+    /* justify-items: auto; */
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.dave-picture {
+    display: flex;
+    justify-content: center;
 }
