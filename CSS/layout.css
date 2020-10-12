@@ -72,13 +72,13 @@ nav {
     list-style-type: none;
     justify-content: space-between;
     margin-top: 37x;
-    /* justify-items: auto; */
 }
 
-img {
+
+/* img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .dave-picture {
     display: flex;
