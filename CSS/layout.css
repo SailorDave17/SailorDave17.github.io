@@ -58,7 +58,10 @@ nav {
 
 .skills-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    list-style-type: square
+    
 }
 
 .contact-title {
