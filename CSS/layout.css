@@ -33,9 +33,13 @@ nav {
     padding-top: 48px;
 }
 
-.bio {
+/* .bio {
     display: flex;
     justify-content: space-between;
+} */
+
+.flex-container{
+    display: flex;
 }
 
 .project-title {
