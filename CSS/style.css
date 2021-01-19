@@ -14,3 +14,45 @@
             max-width: 1500px;
             width: 90%;
         }
+
+        .title{
+            font-size: 65px;
+        }
+
+        .nav-list{
+            font-size: 30px;
+        }
+
+        .about-dave{
+            font-size: 42px;
+        }
+
+        .bio{
+            font-size: 20px;
+        }
+
+        .project-title{
+            font-size: 42px;
+        }
+
+        .project-list{
+            font-size: 30px ;
+        }
+
+        .skills-title{
+            font-size: 42px;
+        }
+
+        .skills-list{
+            font-size: 18px;
+        }
+
+        .contact-title{
+            font-size: 42px;
+        }
+
+        .contact-list{
+            font-size: 30px;
+        }
+
+
